@@ -1,0 +1,18 @@
+{
+  "name": "SubEmotes? Kappa",
+  "version": "1.0.0",
+  "description": "Browser extension to visualize private Twitch emoticons",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://twitch.tv/*",
+        "*://www.twitch.tv/*"
+      ],
+      "js": [
+        "emotes.js",
+        "main.js"
+      ]
+    }
+  ]
+}
