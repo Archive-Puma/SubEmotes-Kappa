@@ -1,4 +1,15 @@
-const INTERVAL = 10
+﻿const INTERVAL = 10
+
+const EMOTES = {
+  'jarco2DAB': '923095',
+  'mayiMappa': '129760',
+  'mortmoGOD': '1067692',
+  'peibCC': '152479',
+  'peibC': '496311',
+  'suraeiHAPPY': '835346',
+  'thekar2AH': '1073736'
+}
+
 
 function insertText (txt) {
   let span = document.createElement('span')
